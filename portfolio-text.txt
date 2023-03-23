@@ -12,64 +12,13 @@
                 <div class="Contact-opt">Contact</div>
 
 
-.Home-opt{
+.Home-opt, .About-opt, .Contact-opt, .Portfolio-opt, .Resume-opt, .Testimonials-opt{
     display: none;
     font-style: italic;
 }
-.Home:hover +.Home-opt{
+.Home:hover +.Home-opt, .About:hover +.About-opt, .Contact:hover + .Contact-opt, .Portfolio:hover +.Portfolio-opt, .Resume:hover +.Resume-opt, .Testimonials:hover + .Testimonials-opt{
     display: inline-block;
     color: rgb(39, 30, 30);
     font-size: 12px;
     position: relative;
-}
-
-.About-opt{
-    display: none;
-    font-style: italic;
-}
-.About:hover +.About-opt{
-    display: inline-block;
-    color: rgb(39, 30, 30);
-    font-size: 12px;
-    position: relative;
-}
-.Resume-opt{
-    display: none;
-    font-style: italic;
-}
-.Resume:hover +.Resume-opt{
-    display: inline-block;
-    color: rgb(39, 30, 30);
-    font-size: 12px;
-    position: relative;
-}
-
-.Portfolio-opt{
-    display: none;
-    font-style: italic;
-}
-.Portfolio:hover +.Portfolio-opt{
-    display: inline-block;
-    color: rgb(39, 30, 30);
-    font-size: 12px;
-}
-
-.Testimonials-opt{
-    display: none;
-    font-style: italic;
-}
-.Testimonials:hover + .Testimonials-opt{
-    display: inline-block;
-    color: rgb(39, 30, 30);
-    font-size: 12px;
-}
-
-.Contact-opt{
-    display: none;
-    font-style: italic;
-}
-.Contact:hover + .Contact-opt{
-    display: inline-block;
-    color: rgb(39, 30, 30);
-    font-size: 12px;
 }
